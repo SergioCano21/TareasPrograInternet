@@ -1,0 +1,23 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+  }
+.abajo{
+    flex: 1;
+    background-color: aquamarine;
+}
+.arriba{
+    flex: 1;
+    background-color: beige;
+}
+form, .texto{
+    margin-left: 20px;
+}

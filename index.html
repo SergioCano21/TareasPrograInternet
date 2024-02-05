@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/cheese.png" type="image/x-icon">
+    
+    <title>Tarea 1</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="arriba">
+            <h1 class="texto">La increible pagina del buen Sergio</h1>
+            <p class="texto">Presione el queso para ir al sitio donde los estudiantes se sienten más seguros</p>
+            <a class="texto" href="https://chat.openai.com/"><img src="./img/cheese.png" alt=""></a>
+            <hr>
+        </div>
+        <div class="abajo">
+            <p class="texto">Confirme su identidad</p>
+
+        <form name="login">
+            <label for="calificacion">Ingrese la calificacion en un rango de 0-10</label>
+            <input type="number" name="calificacion" min="0" max="10">
+            <br>
+            <br>
+            <label for="nombre">Nombre Completo</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+            <br>
+            <br>
+            <label for="correo">Correo</label>
+            <br>
+            <input type="text" name="correo" id="correo" placeholder="example@gmail.com">
+            <br>
+            <br>
+            <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento">
+            <br>
+            <br>
+            <label for="pais">País de origen</label>
+            <select name="pais" id="pais">
+                <option value="">Seleccionar</option>
+                <option value="MEX">Mexico</option>
+                <option value="USA">USA</option>
+                <option value="OTRO">Otro</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="submit" name="enviar" id="enviar" value="Confirmar">
+        </form>
+        <br><br><br><br>
+        <h6 class="texto">Esta pagina fue creada con la intención de demostrarle al profe que sí le sé al desarrollo web ©</h6>
+        </div>
+    </div>
+</body>
+</html>
